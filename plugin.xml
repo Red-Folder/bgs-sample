@@ -28,13 +28,8 @@
 	<!--<dependency id="com.red_folder.phonegap.plugin.backgroundservice" url="https://github.com/Red-Folder/bgs-core.git" commit="aaca1d566110813e5fdf150811695537084c710b" subdir="" />-->
 
     <!-- android -->
-	<!--
     <platform name="android">
 
-        <config-file target="AndroidManifest.xml" parent="/manifest">
-            <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-        </config-file>
-        
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
   
             <service android:name="com.red_folder.phonegap.plugin.backgroundservice.sample.MyService">
@@ -47,6 +42,5 @@
         
         <source-file src="src/android/MyService.java" target-dir="src/com/red_folder/phonegap/plugin/backgroundservice/sample" />
     </platform>
-	-->
 	
 </plugin>

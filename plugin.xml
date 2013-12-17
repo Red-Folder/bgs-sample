@@ -16,9 +16,9 @@
         <engine name="cordova" version=">=3.0.0"/>
     </engines>
 
-	<!--
+
 	<asset src="www/myService.html" target="myService.html" />
-	-->
+
 	<!--
     <js-module src="www/myService.js" name="MyService">
         <clobbers target="window.plugins.MyService" />

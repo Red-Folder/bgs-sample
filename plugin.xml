@@ -42,7 +42,7 @@
             
         </config-file>
         
-        <source-file src="src/android/*" target-dir="src/com/red_folder/phonegap/plugin/backgroundservice/sample" />
+        <source-file src="src/android/MyService.java" target-dir="src/com/red_folder/phonegap/plugin/backgroundservice/sample" />
     </platform>
 
 </plugin>

@@ -16,19 +16,17 @@
         <engine name="cordova" version=">=3.0.0"/>
     </engines>
 
-
-	<asset src="www/myService.html" target="myService.html" />
-
-    <js-module src="www/myService.js" name="MyService">
-        <clobbers target="window.plugins.MyService" />
-    </js-module>
-
 	<!-- Load in the core background service -->
 	<dependency id="com.red_folder.phonegap.plugin.backgroundservice" url="https://github.com/Red-Folder/bgs-core.git"/>
-	<!--<dependency id="com.red_folder.phonegap.plugin.backgroundservice" url="https://github.com/Red-Folder/bgs-core.git" commit="aaca1d566110813e5fdf150811695537084c710b" subdir="" />-->
 
     <!-- android -->
     <platform name="android">
+
+		<asset src="www/myService.html" target="myService.html" />
+
+		<js-module src="www/myService.js" name="MyService">
+			<clobbers target="window.plugins.MyService" />
+		</js-module>
 
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
   

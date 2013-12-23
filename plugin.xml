@@ -25,7 +25,7 @@
 		<asset src="www/myService.html" target="myService.html" />
 
 		<js-module src="www/myService.js" name="MyService">
-			<clobbers target="window.plugins.MyService" />
+			<clobbers target="cordova.plugins.myService" />
 		</js-module>
 
         <config-file target="AndroidManifest.xml" parent="/manifest/application">

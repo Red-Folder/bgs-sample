@@ -14,7 +14,10 @@
  * limitations under the License.
  */
 
-cordova.require('BackgroundService');
+cordova.require('com.red_folder.phonegap.plugin.backgroundservice.BackgroundService');
 
+/*
 cordova.define(	'cordova/plugin/MyService',	CreateBackgroundService('com.red_folder.phonegap.plugin.backgroundservice.sample.MyService', require, exports, module));
+*/
 				
+CreateBackgroundService('com.red_folder.phonegap.plugin.backgroundservice.sample.MyService');

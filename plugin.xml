@@ -38,10 +38,6 @@
             
         </config-file>
         
-		<config-file target="res/xml/config.xml" parent="/*">
-			<content src="myService.html" />
-		</config-file>
-		
         <source-file src="src/android/MyService.java" target-dir="src/com/red_folder/phonegap/plugin/backgroundservice/sample" />
     </platform>
 	
